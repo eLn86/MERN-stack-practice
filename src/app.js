@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import Zones from './components/Zones'
+import Zone from './components/Zone'
 
 class App extends Component {
   render() {

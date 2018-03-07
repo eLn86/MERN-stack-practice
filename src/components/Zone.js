@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Zones extends Component {
+class Zone extends Component {
   render() {
     return (
       <div>
@@ -12,4 +12,4 @@ class Zones extends Component {
   }
 }
 
-export default Zones
+export default Zone
