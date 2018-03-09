@@ -10,10 +10,10 @@ class Zone extends Component {
       <div style= {style.container}>
         <h2 style= {style.header}>
           <a style= {style.link}
-               href="#">{this.props.info.name}
+               href="#">{this.props.info.zoneName}
           </a>
         </h2>
-        <span className="detail">{this.props.info.zipCode}</span><br />
+        <span className="detail">{this.props.info.zipCodes}</span><br />
         <span className="detail">{this.props.info.numComments} comments</span>
       </div>
     )
