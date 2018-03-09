@@ -73,7 +73,7 @@ class Zones extends Component {
   listItems() {
     return this.state.zoneList.map((zone, index) => {
       return (
-      <li><Zone info={zone} /></li>
+      <li key={index}><Zone info={zone} /></li>
       )
     })
   }

@@ -39,7 +39,7 @@ class Comments extends Component {
   commentList() {
     return this.state.comments.map((comment, index) => {
       return(
-        <li><Comment info={comment} /></li>
+        <li key={index}><Comment info={comment} /></li>
       )
     })
   }

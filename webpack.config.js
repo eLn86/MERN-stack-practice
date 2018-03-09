@@ -1,7 +1,8 @@
 var webpack = require('webpack')
 var path = require('path')
 
-const config = {
+module.exports = {
+    mode: 'development',
     entry: {
       app: './src/app.js'
     },
@@ -24,5 +25,3 @@ const config = {
       ]
     }
 }
-
-module.exports = config
